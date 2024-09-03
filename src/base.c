@@ -6,6 +6,6 @@
 
 int main(int argc, char *argv[]) {
     char* result = f();
-    printf("%s", result);
+    printf("%s\n", result);
     free(result);
 }
